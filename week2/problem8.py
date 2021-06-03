@@ -10,7 +10,7 @@ def main():
     if n > x:
         print("user\'s number is greater than random number")
     else:
-        print("User' number is less than the random number")
+        print("User\'s number is less than the random number")
     return os.X_OK
 
 
