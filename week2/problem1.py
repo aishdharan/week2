@@ -1,6 +1,5 @@
 import sys
-import os
-import math
+
 
 # f-string
 def main():
