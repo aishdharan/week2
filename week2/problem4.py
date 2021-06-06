@@ -6,7 +6,9 @@ import math
 def calculate(a, b, c):
     discriminant = b ** 2 - 4 * a * c
     if discriminant < 0:
+        # here is where complex roots appear
         return None, None
+    # if discriminant >= 0 then we get real roots
     x1 = complex((2 * c) / (- b + math.sqrt(discriminant)))
     x2 = complex((2 * c) / (- b - math.sqrt(discriminant)))
     return x1, x2
