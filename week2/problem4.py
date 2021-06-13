@@ -2,7 +2,11 @@ import os
 import sys
 import math
 
-
+"""
+Notes:
+- I'd like you to have a go at this again. I'll guide you. Please make a first attempt 
+then we take it from there.
+"""
 def calculate(a, b, c):
     discriminant = b ** 2 - 4 * a * c
     if discriminant < 0:
